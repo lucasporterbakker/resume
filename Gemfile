@@ -14,3 +14,5 @@ gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
 gem 'swiper-rails'
+
+ruby '2.5.6'
