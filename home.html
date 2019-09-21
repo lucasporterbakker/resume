@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="path/to/swiper.css">
+
+    <!-- LinkedIn -->
+    <meta property='og:title' content='Lucas Porter-Bakker'/>
+    <meta property='og:image' content='http://res.cloudinary.com/donw16xff/image/upload/v1533972495/Screen_Shot_2018-08-11_at_3.27.51_PM.png'/>
+    <meta property='og:description' content='Full stack innovator; 5x founder and entrepreneur; experienced executive; developer and software engineer; teacher and mentor.'/>
+    <meta property='og:url' content='http://res.cloudinary.com/donw16xff/image/upload/v1533972495/Screen_Shot_2018-08-11_at_3.27.51_PM.png'/>
+
+    <!-- Facebook -->
+    <meta property="og:title" content="Lucas Porter-Bakker">
+    <meta property="og:description" content="Full stack innovator; 5x founder and entrepreneur; experienced executive; developer and software engineer; teacher and mentor.">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:url" content="http://res.cloudinary.com/donw16xff/image/upload/v1533972495/Screen_Shot_2018-08-11_at_3.27.51_PM.png">
+    <meta property="og:image" content="http://res.cloudinary.com/donw16xff/image/upload/v1533972495/Screen_Shot_2018-08-11_at_3.27.51_PM.png">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Use the title from a page's frontmatter if it has one -->
+    <title>Lucas Porter-Bakker | Home</title>
+    <link href="stylesheets/application-188ba751.css" rel="stylesheet" />
+    <script src="javascripts/application-04ac9561.js"></script>
+    <link href="images/lpb.ico" rel="icon" type="image/ico" />
+    <script type="text/javascript" src="application.js"></script>
+  </head>
+  <body>
+    <script src="path/to/swiper.min.js"></script>
+    <head>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+</head>
+
+<div class="menu-icon">
+	<span class="menu-icon__line menu-icon__line-left"></span>
+	<span class="menu-icon__line"></span>
+	<span class="menu-icon__line menu-icon__line-right"></span>
+</div>
+
+<div class="nav">
+	<div class="nav__content">
+		<ul class="nav__list">
+      <!-- <li class="nav__list-item"><a href="professional.html"><i class="fa fa-briefcase"></i></a></li>
+      <li class="nav__list-item"><a href="education.html"><i class="fa fa-graduation-cap"></i></a></li>
+      <li class="nav__list-item"><a href="portfolio.html"><i class="fa fa-folder-open"></i></a></li>
+      <li class="nav__list-item"><a href="contact.html"><i class="fa fa-envelope"></i></a></li> -->
+			<li class="nav__list-item"><a href="education.html"><i class="fa fa-graduation-cap"></i> Education</a></li>
+      <li class="nav__list-item"><a href="about.html"><i class="fas fa-id-card"></i> About</a></li>
+      <li class="nav__list-item"><a href="professional.html"><i class="fa fa-briefcase"></i> Experience</a></li>
+      <li class="nav__list-item"><a href="portfolio.html"><i class="fa fa-folder-open"></i> Stack & Portfolio</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="site-content">
+	<h1 class="site-content__headline">Lucas Porter-Bakker</h1>
+</div>
+
+<script type="text/javascript">
+console.clear();
+
+const app = (() => {
+  let body;
+  let menu;
+  let menuItems;
+
+  const init = () => {
+    body = document.querySelector('body');
+    menu = document.querySelector('.menu-icon');
+    menuItems = document.querySelectorAll('.nav__list-item');
+
+    applyListeners();
+  }
+
+  const applyListeners = () => {
+    menu.addEventListener('click', () => toggleClass(body, 'nav-active'));
+  }
+
+  const toggleClass = (element, stringClass) => {
+    if(element.classList.contains(stringClass))
+    element.classList.remove(stringClass);
+    else
+    element.classList.add(stringClass);
+  }
+
+  init();
+})();
+</script>
+
+  </body>
+</html>
