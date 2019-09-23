@@ -13,6 +13,8 @@ gem 'font-awesome-middleman'
 gem 'bootstrap-sass'
 gem 'jquery-middleman'
 
+gem 'middleman-google-analytics'
+
 gem 'swiper-rails'
 
 ruby '2.4.3'
